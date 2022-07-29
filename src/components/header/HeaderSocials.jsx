@@ -1,7 +1,9 @@
 import React from "react";
-import { AiOutlineGithub } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { AiOutlineYoutube } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { AiFillYoutube } from "react-icons/ai";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
 const HeaderSocials = () => {
   return (
@@ -11,21 +13,35 @@ const HeaderSocials = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <AiOutlineGithub />
+        <AiFillGithub />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/dipayan-banik-23b77a1b4/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <AiFillLinkedin />
+      </a>
+      <a
+        href="https://www.facebook.com/jishugamer"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <AiFillFacebook />
       </a>
       <a
         href="https://www.instagram.com/dipayan.jishu/"
         target="_blank"
         rel="noreferrer"
       >
-        <AiOutlineInstagram />
+        <AiFillInstagram />
       </a>
       <a
         href="https://www.youtube.com/c/JISHU101"
         target="_blank"
         rel="noreferrer"
       >
-        <AiOutlineYoutube />
+        <AiFillYoutube />
       </a>
     </div>
   );
