@@ -27,6 +27,7 @@
 }
 .portfolio_item h5 {
   color: var(--color-light);
+  font-weight: 300;
 }
 
 .portfolio_item-cta {
