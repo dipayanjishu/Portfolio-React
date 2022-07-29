@@ -47,6 +47,16 @@ header {
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+.laura {
+  width: 22rem;
+  height: 36rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: -5rem;
+  border-radius: 30rem 30rem 0rem 0rem;
+  overflow: hidden;
+  padding: 4rem 1.5rem 1.5rem 1.5rem;
+}
 
 /* =======================Scroll Down=================== */
 .scroll__down {
