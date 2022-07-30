@@ -50,6 +50,10 @@
   color: var(--color-primary);
   font-size: 1.4rem;
   margin-bottom: 1rem;
+  transition: var(--transition);
+}
+.about__icon:hover {
+  color: var(--color-white);
 }
 .about__card h5 {
   font-size: 0.95rem;

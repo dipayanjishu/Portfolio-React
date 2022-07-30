@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./About.css";
 import ME from "../../assets/me-about.png";
@@ -21,26 +22,36 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <BsTwitch className="about__icon" />
+              <a href="https://www.twitch.tv/jishu_01" target="_blank">
+                <BsTwitch className="about__icon" />
+              </a>
               <h5>Streaming</h5>
               <small>Twitch Affiliated</small>
             </article>
+
             <article className="about__card">
-              <BsFacebook className="about__icon" />
+              <a href="https://www.facebook.com/jishugamer" target="_blank">
+                <BsFacebook className="about__icon" />
+              </a>
               <h5>Content Creator</h5>
               <small>More than 1M+ views</small>
             </article>
             <article className="about__card">
-              <BsFillFolderFill className="about__icon" />
+              <a
+                href="https://github.com/dipayanjishu?tab=repositories"
+                target="_blank"
+              >
+                <BsFillFolderFill className="about__icon" />
+              </a>
               <h5>Projects</h5>
               <small>5+</small>
             </article>
           </div>
 
           <p>
-            Hello, I'm Dipayan Banik, a student of computer application. Having
-            great enthusiast in Graphic Designing and Gaming. Currently,
-            learning front end development and this portfolio is an instance of
+            Hello, I'm Dipayan Banik, a student of computer application. Have
+            great enthusiasm for Graphic Designing and Gaming. Currently,
+            learning front-end development and this portfolio is an instance of
             that. Thank you.
           </p>
           <a href="#contact" className="btn btn-primary">

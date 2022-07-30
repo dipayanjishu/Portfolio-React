@@ -4,12 +4,12 @@
 }
 
 .client__avatar {
-  width: 4rem;
+  width: 6rem;
   aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 50%;
-  margin: 0 auto 1rem;
-  border: 0.4rem solid var(--color-primary);
+  margin: 0 auto 0.5rem;
+  border: 0.2rem solid var(--color-primary);
 }
 
 .testimonial {
@@ -18,6 +18,15 @@
   padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+}
+
+.client_title {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.client_title:hover {
+  color: var(--color-white);
 }
 
 .client__review {

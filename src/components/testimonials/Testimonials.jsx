@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable no-undef */
 import React from "react";
 import "./Testimonials.css";
 import avtr1 from "../../assets/avatar1.jpg";
@@ -16,15 +18,18 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: avtr1,
-    name: "Khanki Magi",
+    name: "Bodhisatta Banerjee",
+    website: "https://www.facebook.com/Baghaislive",
+    title: "(FB Partner)",
     review:
-      "bokachoda chudir bhai chudtey galey magi chai magir garey gondho choda chudi bondho",
+      "A great guy with great skills and unique innovative ideas that have helped me a lot during my time working with him. Also a guy with on point work and in time delivery of promised work.",
   },
   {
     avatar: avtr2,
-    name: "Khankir chele",
-    review:
-      "bokachoda chudir bhai chudtey galey magi chai magir garey gondho choda chudi bondho",
+    name: "Atharv Das",
+    website: "https://www.facebook.com/Atharvthegamer",
+    title: "(FB Partner)",
+    review: "Very jolly and energetic teammate with good editing skills.",
   },
 ];
 
@@ -42,13 +47,18 @@ const testimonials = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ avatar, name, website, title, review }, index) => {
           return (
             <SwiperSlide key={index} className="testimonial">
               <div className="client__avatar">
                 <img src={avatar} alt="" />
               </div>
-              <h5 className="client_name">{name}</h5>
+
+              <h4 className="client_name">{name}</h4>
+              <a href={website} target="_blank" className="client__website">
+                <h5 className="client_title">{title}</h5>
+              </a>
+
               <small className="client__review">{review}</small>
             </SwiperSlide>
           );
