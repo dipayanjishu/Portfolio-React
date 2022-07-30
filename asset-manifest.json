@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.9f674b9e.css",
+    "main.css": "/Portfolio-React/static/css/main.0b98edeb.css",
     "main.js": "/Portfolio-React/static/js/main.6b58b529.js",
     "static/media/Horizon & Beyond Vol2.pdf": "/Portfolio-React/static/media/Horizon & Beyond Vol2.8bc7122eb043a9c336dd.pdf",
     "static/media/me-about.png": "/Portfolio-React/static/media/me-about.97ddb65deb3d129f2bad.png",
@@ -9,11 +9,11 @@
     "static/media/FINAL_COVER.png": "/Portfolio-React/static/media/FINAL_COVER.26123b7f4b0a52c43084.png",
     "static/media/tictactoegame.png": "/Portfolio-React/static/media/tictactoegame.297fdf07c01812055a26.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.9f674b9e.css.map": "/Portfolio-React/static/css/main.9f674b9e.css.map",
+    "main.0b98edeb.css.map": "/Portfolio-React/static/css/main.0b98edeb.css.map",
     "main.6b58b529.js.map": "/Portfolio-React/static/js/main.6b58b529.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f674b9e.css",
+    "static/css/main.0b98edeb.css",
     "static/js/main.6b58b529.js"
   ]
 }
