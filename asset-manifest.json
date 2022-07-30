@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.e68d3525.css",
-    "main.js": "/Portfolio-React/static/js/main.4415ae73.js",
+    "main.js": "/Portfolio-React/static/js/main.6fd73733.js",
     "static/media/Horizon & Beyond Vol2.pdf": "/Portfolio-React/static/media/Horizon & Beyond Vol2.8bc7122eb043a9c336dd.pdf",
     "static/media/me-about.png": "/Portfolio-React/static/media/me-about.97ddb65deb3d129f2bad.png",
     "static/media/me.png": "/Portfolio-React/static/media/me.7fa8a56f011e53388cca.png",
@@ -12,10 +12,10 @@
     "static/media/tictactoegame.png": "/Portfolio-React/static/media/tictactoegame.297fdf07c01812055a26.png",
     "index.html": "/Portfolio-React/index.html",
     "main.e68d3525.css.map": "/Portfolio-React/static/css/main.e68d3525.css.map",
-    "main.4415ae73.js.map": "/Portfolio-React/static/js/main.4415ae73.js.map"
+    "main.6fd73733.js.map": "/Portfolio-React/static/js/main.6fd73733.js.map"
   },
   "entrypoints": [
     "static/css/main.e68d3525.css",
-    "static/js/main.4415ae73.js"
+    "static/js/main.6fd73733.js"
   ]
 }
