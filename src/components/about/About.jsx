@@ -44,7 +44,7 @@ const About = () => {
                 <BsFillFolderFill className="about__icon" />
               </a>
               <h5>Projects</h5>
-              <small>5+</small>
+              <small>2+</small>
             </article>
           </div>
 

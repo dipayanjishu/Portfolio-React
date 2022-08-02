@@ -6,6 +6,8 @@ import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -50,6 +52,15 @@ const Footer = () => {
         </a>
         <a href="https://twitter.com/jishu_01" target="_blank">
           <BsTwitter />
+        </a>
+        <a href="https://github.com/dipayanjishu" target="_blank">
+          <BsGithub />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dipayan-banik-23b77a1b4/"
+          target="_blank"
+        >
+          <BsLinkedin />
         </a>
       </div>
 
