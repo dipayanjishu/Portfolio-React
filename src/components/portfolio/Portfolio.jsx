@@ -1,8 +1,9 @@
 import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/tictactoegame.png";
-import IMG2 from "../../assets/FINAL_COVER.png";
-import magazine from "../../assets/Horizon & Beyond Vol2.pdf";
+// import IMG2 from "../../assets/FINAL_COVER.png";
+import IMG3 from "../../assets/squizee.png";
+// import magazine from "../../assets/Horizon & Beyond Vol2.pdf";
 
 const Portfolio = () => {
   return (
@@ -39,6 +40,32 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio__item-image">
+            <img src={IMG3} alt="" />
+          </div>
+          <h3>sQUIZee</h3>
+          <h5>A quiz application made with React</h5>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/dipayanjishu/quiz-react"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://dipayanjishu.github.io/quiz-react/"
+              target="_blank"
+              className="btn btn-primary"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        {/* <article className="portfolio_item">
+          <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
           <h3>Horizon and Beyond Vol2 (Magazine)</h3>
@@ -54,7 +81,7 @@ const Portfolio = () => {
               Download
             </a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   );
